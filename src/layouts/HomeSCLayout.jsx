@@ -1,10 +1,10 @@
-import HomeSCTopbar from "@/components/navigation/HomeSCTopbar";
+import HomeSCTopBar from "@/components/navigation/HomeSCTopBar";
 import { Outlet } from "react-router-dom";
 
 const HomeSClayout = () => {
   return (
     <>
-      <HomeSCTopbar />
+      <HomeSCTopBar />
       <main>
         <Outlet />
       </main>
