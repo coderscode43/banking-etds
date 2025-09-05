@@ -4,10 +4,10 @@ const HomeSCTopBar = () => {
   return (
     <header className="border-b-2 border-gray-300 bg-white">
       <div className="mx-10 flex h-14 items-center justify-between">
-        <div className="brand">
+        <div className="ps-16">
           <i className="fa-solid fa-bars cursor-pointer text-gray-400"></i>
         </div>
-        <div className="brand">
+        <div className="ml-[105px]">
           <h1 className="text-2xl font-bold text-[var(--primary-color)]">
             R J SONI and Associates - ABCDE1234A
           </h1>

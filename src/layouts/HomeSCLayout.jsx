@@ -1,3 +1,4 @@
+import HomeSCSidebar from "@/components/navigation/HomeSCSidebar";
 import HomeSCTopBar from "@/components/navigation/HomeSCTopBar";
 import { Outlet } from "react-router-dom";
 
@@ -5,7 +6,8 @@ const HomeSClayout = () => {
   return (
     <>
       <HomeSCTopBar />
-      <main className="mx-10 my-5">
+      <HomeSCSidebar />
+      <main className="mx-10 my-5 ms-[104px]">
         <Outlet />
       </main>
     </>
