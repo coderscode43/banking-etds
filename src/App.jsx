@@ -8,6 +8,7 @@ import {
 import ErrorPage from "./components/component/ErrorPage";
 import HomeSClayout from "./layouts/HomeSCLayout";
 import Homepage from "./pages/SC/Homepage";
+import Branch from "./pages/SC/Branch";
 
 const App = () => {
   const router = createBrowserRouter(
@@ -20,6 +21,7 @@ const App = () => {
           errorElement={<ErrorPage />}
         >
           <Route path="homepage" element={<Homepage />} />
+          <Route path="branch" element={<Branch />} />
         </Route>
 
         {/* Catch-all route for 404s */}

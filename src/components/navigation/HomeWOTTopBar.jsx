@@ -8,7 +8,7 @@ const HomeWOTTopBar = () => {
           <i className="fa-solid fa-bars cursor-pointer text-gray-400"></i>
         </div>
         <div className="brand">
-          <h1 className="text-2xl text-[var(--primary-text-color)]">
+          <h1 className="text-2xl text-[var(--primary-color)]">
             Financial Year : <span className="font-bold">2025-26</span>, Branch
             Code : <span className="font-bold">1000</span>
           </h1>

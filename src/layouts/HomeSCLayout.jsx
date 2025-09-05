@@ -5,7 +5,7 @@ const HomeSClayout = () => {
   return (
     <>
       <HomeSCTopBar />
-      <main>
+      <main className="mx-10 my-5">
         <Outlet />
       </main>
     </>

@@ -8,7 +8,7 @@ const HomeSCTopBar = () => {
           <i className="fa-solid fa-bars cursor-pointer text-gray-400"></i>
         </div>
         <div className="brand">
-          <h1 className="text-2xl font-bold text-[var(--primary-text-color)]">
+          <h1 className="text-2xl font-bold text-[var(--primary-color)]">
             R J SONI and Associates - ABCDE1234A
           </h1>
         </div>

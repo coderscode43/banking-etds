@@ -6,7 +6,8 @@
 
 /* Custom CSS Variables */
 @theme {
-  --primary-text-color: #303e67;
+  --primary-color: #303e67;
+  --secondary-color: #32375e;
 }
 
 body {
