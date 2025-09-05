@@ -5,25 +5,77 @@ import clsx from "clsx";
 const Branch = () => {
   // Table Details
   const tableHead = [
-    { label: "Sr.No.", key: "srNo" },
-    { label: "Date", key: "dateoflogs" },
-    { label: "Action", key: "action" },
-    { label: "F.Y.", key: "fy" },
-    { label: "Form", key: "form" },
-    { label: "Quarter", key: "quarter" },
-    { label: "TAN", key: "tan" },
-    { label: "User", key: "username" },
+    {
+      key: "srNo",
+      label: "Sr.No",
+    },
+    {
+      key: "branchName",
+      label: "ROCode",
+    },
+    {
+      key: "branchEmail",
+      label: "RO Email",
+    },
+    {
+      key: "branchContactNo",
+      label: "RO Contact No",
+    },
+    {
+      key: "branchAddress",
+      label: "RO Address",
+    },
+    {
+      key: "branchPinCode",
+      label: "Ro PinCode",
+    },
+    {
+      key: "branchState",
+      label: "Ro State",
+    },
+    {
+      key: "branchEdit",
+      label: "RO Edit",
+    },
   ];
 
   const tableData = [
-    { label: "Sr.No.", key: "srNo" },
-    { label: "Date", key: "dateoflogs" },
-    { label: "Action", key: "action" },
-    { label: "F.Y.", key: "fy" },
-    { label: "Form", key: "form" },
-    { label: "Quarter", key: "quarter" },
-    { label: "TAN", key: "tan" },
-    { label: "User", key: "username" },
+    {
+      id: 2285929,
+      roCode: "100",
+      branchCode: 1000,
+      branchName: "tset",
+      branchEmail: "tset@gmail.com",
+      branchContactNo: "9874561230",
+      branchAddress: "kinjal",
+      branchPinCode: "400091",
+      branchState: "Maharashtra-19",
+      tan: null,
+    },
+    {
+      id: 2285929,
+      roCode: "100",
+      branchCode: 1000,
+      branchName: "tset",
+      branchEmail: "tset@gmail.com",
+      branchContactNo: "9874561230",
+      branchAddress: "kinjal",
+      branchPinCode: "400091",
+      branchState: "Maharashtra-19",
+      tan: null,
+    },
+    {
+      id: 2285929,
+      roCode: "100",
+      branchCode: 1000,
+      branchName: "tset",
+      branchEmail: "tset@gmail.com",
+      branchContactNo: "9874561230",
+      branchAddress: "kinjal",
+      branchPinCode: "400091",
+      branchState: "Maharashtra-19",
+      tan: null,
+    },
   ];
 
   return (
